@@ -21,10 +21,6 @@ subnets.
 We use the user-data.sh is used to clone the repo and start the application on the instances, triggered by pushes to the master branch. It handles:
 
 
-## Continuous Deployment
-
-Our deployment process is automated through `userdata.sh``. A cron job monitors Docker Hub for new image releases every minute and automatically deploys any new version found.
-
 ## How To Deploy The Infrastructure?
 
 To deploy the infrastructure, follow these steps:
