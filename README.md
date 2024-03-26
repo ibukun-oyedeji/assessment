@@ -1,6 +1,6 @@
 # DevOps Engineer - Princeps Interview Assessment
 
-This repository houses the codebase to PHP lavarel application to access the Terraform code for the infrastructure on AWS, hit this link .
+This repository houses the codebase to PHP lavarel application to access the Terraform code for the infrastructure on AWS, hit this link; https://github.com/ibukun-oyedeji/Infrastrucuture.
 
 # Infrastructure Overview
 - **VPC**: A custom VPC in which the resource will be deployed into
@@ -29,7 +29,7 @@ Our deployment process is automated through `userdata.sh``. A cron job monitors 
 
 To deploy the infrastructure, follow these steps:
 
-- Navigate to the terraform repo by running `cd Infrastructure` in your terminal.
+- Navigate to the terraform repo on https://github.com/ibukun-oyedeji/Infrastrucuture and running `cd Infrastructure` in your terminal.
 - Execute the command `terraform apply -auto-approve` to initiate the deployment process. This command automates the approval of the deployment, streamlining the process.
 
 After the Terraform process completes, the URL for the load balancer will be displayed in the terminal. Copy and paste this URL into your browser to access the application.
