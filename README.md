@@ -25,7 +25,7 @@ We use the user-data.sh is used to clone the repo and start the application on t
 
 To deploy the infrastructure, follow these steps:
 
-- Navigate to the terraform repo on https://github.com/ibukun-oyedeji/Infrastrucuture and run `cd Infrastructure` in your terminal.
+- Navigate to the terraform repo on https://github.com/ibukun-oyedeji/Infrastrucuture clone it locally and run `cd Infrastructure` in your terminal.
 - Execute the command `terraform apply -auto-approve` to initiate the deployment process. This command automates the approval of the deployment, streamlining the process.
 
 After the Terraform process completes, the URL; https://ibkaay.net for the load balancer will be displayed in the terminal. Copy and paste this URL into your browser to access the application.
